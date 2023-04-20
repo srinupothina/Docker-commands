@@ -1,0 +1,39 @@
+ * docker pull image
+
+ * docker run -it image name
+
+ * docker ps [ to show running containers ]
+
+ * docker pa -a [ to show all running and stopped containers ]
+
+ * docker start container id 
+
+ * docker stop container id
+
+ * docker restart container id
+
+ * docker build -t image name
+
+ * docker exec -it container id /bin/bash [ to go inside the running container ] 
+
+ * press control pq to come out from container
+
+ * docker rename old container name new container name
+
+ * docker rm container id [ to delete container ]
+
+ * docker rmi image name [ to delete image ]
+
+ * docker ps -aq [ to show all container ids ]
+
+ * docker ps -q [ to show only running containers ]
+
+ * docker stop $(docker ps -q) [ to stop all containers ]
+
+ * docker rm $(docker ps -q) [ to delete  all containers ]
+
+ * docker run --name imagename -it imagename
+
+ * docker logs
+
+ * docker run -p 8080:8080 -it container name 
